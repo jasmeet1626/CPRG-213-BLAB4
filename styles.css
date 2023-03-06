@@ -1,0 +1,106 @@
+.first-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgb(173, 216, 230);
+}
+
+.first-flex div {
+    width: 50%;
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    margin: 10px;
+}
+
+.first-flex #firstK {
+    margin-right: 0px;
+}
+
+.first-flex #firstL {
+    margin-left: 0px;
+}
+
+.second-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 216, 230);
+}
+
+.second-flex div {
+    width: 33.3%;
+    background-color: rgb(128, 128, 128);
+    margin: 15px;
+    height: 50px;
+}
+
+.second-flex #secondK {
+    margin-right: 0px;
+}
+
+.second-flex #secondM {
+    margin-left: 0px;
+}
+
+.third-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 216, 230);
+}
+
+.third-flex div{
+    width: 25%;
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+    margin: 12px;
+}
+
+.third-flex #thirdK{
+    margin-right: 0px;
+    width: 50%;
+}
+
+.third-flex #thirdM {
+margin-left: 0px;
+}
+
+.fourth-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 216,230);
+}
+
+.fourth-flex div {
+    width: 25%;
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+    margin: 12px;
+}
+
+.fourth-flex #fourthK {
+    margin-right: 0px;
+}
+
+.fourth-flex #fourthM {
+    margin-left: 0px;
+}
+
+.fourth-flex #fourthN {
+    margin-left: 0px;
+}
+
+.subfourth-flex {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 216, 230);
+}
+
+.subfourth-flex div {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(128,128,128);
+    border: 2px solid black;
+    margin: 12px;
+    margin-top: 0px;
+}
